@@ -1,6 +1,9 @@
-.body {
+body {
+    /* если body точка не нужна */
     margin:0 ;
+    font-family: 'Open Sans', sans-serif;
 }
+
 .container {
     margin: 0px 166px;
 }
@@ -11,4 +14,29 @@
     background-repeat: no-repeat;
     background-size: cover;
     /* cover растягивание */
+}
+.header-line {
+    padding-top: 50px;
+    display: flex;
+    /* текст в строку */
+    align-items: center;
+    /* выравнивание по центру */
+}
+.nav-item {
+    color:floralwhite;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    margin-right: 25px;
+}
+.cart {
+    position: relative;
+    border-right: 1px solid #FFFFFF;
+    padding-right: 10px;
+    height: 50px;
+}
+.cart-img {
+    position: absolute;
+    top: 18px;
+    right: 3px;
 }
